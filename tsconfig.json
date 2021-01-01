@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "es5",
+      "es6",
+      "es7"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "module": "esnext",
+    "jsx": "react",
+  },
+  "include": [
+    "src",
+    "typed-css.d.ts"//配置的.d.ts文件
+  ]
+}
